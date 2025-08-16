@@ -17,10 +17,16 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'Markdown 入门',
+        items: [
+          { text: 'Markdown 入门示例', link: '/docs/Markdown入门/探索 Markdown 的奇妙世界.md' },
+        ]
+      },
+      {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          // { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' },
         ]
       }
     ],
