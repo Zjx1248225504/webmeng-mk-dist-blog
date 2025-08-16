@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "webmeng-md-blog",
   description: "使用本地node.js MK编辑器 + git + vite MK转html + 热铁盒自动部署",
-  base: '/vite-press/public/dist/',
+  base: '/dist/',
   // build: {
   //   outDir: '../public/docs', // 自定义输出路径（相对或绝对路径）
   // },
