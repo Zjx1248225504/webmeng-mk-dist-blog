@@ -16,9 +16,15 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'VitePress 相关',
+        items: [
+          { text: 'VitePress 快速入门', link: '/VitePress相关/VitePress快速入门.md' },
+        ]
+      },
+      {
         text: 'Markdown 入门',
         items: [
-          { text: 'Markdown 入门示例', link: '/docs/Markdown入门/探索 Markdown 的奇妙世界.md' },
+          { text: 'Markdown 入门示例', link: '/Markdown入门/探索 Markdown 的奇妙世界.md' },
         ]
       },
       {
