@@ -5,7 +5,7 @@ export default defineConfig({
   title: "webmeng-md-blog",
   description: "使用本地node.js MK编辑器 + git + vite MK转html + 热铁盒自动部署",
   // base: '/dist/',
-  outDir: "dist",
+  outDir: ".vitepress/dist",
   srcDir: "src",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
